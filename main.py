@@ -80,6 +80,10 @@ def main():
     reporter.export_to_csv("results.csv")
     reporter.plot_distributions()
     
+    from src.charts import RiskCharts
+charts = RiskCharts(results, CONFIG)
+charts.save_all("docs/")
+
     print("\n" + "=" * 80)
     print("Analysis complete. Results saved.")
 
