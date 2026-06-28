@@ -1,5 +1,12 @@
 # Monte Carlo VaR/CVaR Analysis
 
+## Results Preview
+
+![P&L Distribution — VaR/CVaR Comparison Across Methods](docs/var_distributions.png)
+
+*Comparison of portfolio P&L distributions generated using four Monte Carlo simulation methods. The figure highlights the estimated VaR and CVaR under both normal and empirical return assumptions, illustrating how different modeling choices affect tail risk estimation.*
+
+
 A modular Python library for calculating Value-at-Risk (VaR) and Conditional Value-at-Risk (CVaR) using multiple Monte Carlo simulation methods.
 
 ## Features
