@@ -81,8 +81,8 @@ def main():
     reporter.plot_distributions()
     
     from src.charts import RiskCharts
-charts = RiskCharts(results, CONFIG)
-charts.save_all("docs/")
+    charts = RiskCharts(results, CONFIG)
+    charts.save_all("docs/")
 
     print("\n" + "=" * 80)
     print("Analysis complete. Results saved.")

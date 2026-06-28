@@ -124,7 +124,9 @@ The engine generates two plots automatically:
 
 **2. Method Sensitivity** — bar chart comparing VaR and CVaR across methods, quantifying model risk.
 
-*(Add a screenshot here after running: `python main.py` → save the figure → `docs/var_distribution.png`)*
+![PnL Distributions](docs/var_distribution.png)
+
+![Method Comparison](docs/method_comparison.png)
 
 ---
 
@@ -142,5 +144,5 @@ Being explicit about model limitations is part of good quantitative practice:
 
 ## Author
 
-Alessa Vargas · [@alessavargas](https://github.com/alessavargas)  
+Alessandra Vargas · [@alessavargas](https://github.com/alessavargas)  
 License: MIT
