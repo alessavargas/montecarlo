@@ -17,3 +17,4 @@ ENV/
 *.csv
 *.png
 .DS_Store
+!docs/*.png
